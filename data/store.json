@@ -1,0 +1,199 @@
+{
+  "users": [
+    {
+      "id": "usr_demo_1",
+      "name": "Alex Johnson",
+      "email": "alex@nova.team",
+      "passwordHash": "password123"
+    },
+    {
+      "id": "usr_demo_2",
+      "name": "Sarah Chen",
+      "email": "sarah@nova.team",
+      "passwordHash": "password123"
+    },
+    {
+      "id": "usr_demo_3",
+      "name": "Marcus Vance",
+      "email": "marcus@nova.team",
+      "passwordHash": "password123"
+    },
+    {
+      "id": "usr_by6c0rf_mu00xdrm",
+      "name": "Elena Rostova",
+      "email": "elena@nova.team",
+      "passwordHash": "password123"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "usr_demo_1",
+      "name": "Alex Johnson",
+      "email": "alex@nova.team",
+      "avatar_url": null,
+      "created_at": "2026-08-30T15:42:26.845Z"
+    },
+    {
+      "id": "usr_demo_2",
+      "name": "Sarah Chen",
+      "email": "sarah@nova.team",
+      "avatar_url": null,
+      "created_at": "2026-09-01T15:42:26.845Z"
+    },
+    {
+      "id": "usr_demo_3",
+      "name": "Marcus Vance",
+      "email": "marcus@nova.team",
+      "avatar_url": null,
+      "created_at": "2026-09-03T15:42:26.845Z"
+    },
+    {
+      "id": "usr_by6c0rf_mu00xdrm",
+      "name": "Elena Rostova",
+      "email": "elena@nova.team",
+      "avatar_url": null,
+      "created_at": "2026-09-13T16:23:57.682Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj_demo_1",
+      "name": "NOVA Web Application Launch",
+      "description": "Full-stack project management platform with modern team collaboration.",
+      "owner_id": "usr_demo_1",
+      "created_at": "2026-09-06T15:42:26.845Z",
+      "updated_at": "2026-09-12T15:42:26.845Z"
+    },
+    {
+      "id": "prj_demo_2",
+      "name": "Mobile Client Experience",
+      "description": "Optimized touch-friendly responsive interface and offline synchronization.",
+      "owner_id": "usr_demo_1",
+      "created_at": "2026-09-10T15:42:26.845Z",
+      "updated_at": "2026-09-12T15:42:26.845Z"
+    }
+  ],
+  "project_members": [
+    {
+      "id": "pm_1",
+      "project_id": "prj_demo_1",
+      "user_id": "usr_demo_1",
+      "role": "OWNER",
+      "joined_at": "2026-09-06T15:42:26.845Z"
+    },
+    {
+      "id": "pm_2",
+      "project_id": "prj_demo_1",
+      "user_id": "usr_demo_2",
+      "role": "MEMBER",
+      "joined_at": "2026-09-07T15:42:26.845Z"
+    },
+    {
+      "id": "pm_3",
+      "project_id": "prj_demo_1",
+      "user_id": "usr_demo_3",
+      "role": "MEMBER",
+      "joined_at": "2026-09-08T15:42:26.845Z"
+    },
+    {
+      "id": "pm_4",
+      "project_id": "prj_demo_2",
+      "user_id": "usr_demo_1",
+      "role": "OWNER",
+      "joined_at": "2026-09-10T15:42:26.845Z"
+    },
+    {
+      "id": "pm_8qnrggq_mu00xxss",
+      "project_id": "prj_demo_1",
+      "user_id": "usr_by6c0rf_mu00xdrm",
+      "role": "MEMBER",
+      "joined_at": "2026-09-13T16:24:23.644Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_1",
+      "project_id": "prj_demo_1",
+      "title": "Architect PostgreSQL schema and RLS policies",
+      "description": "Define relational tables, cascading rules, and secure data access policies.",
+      "status": "DONE",
+      "priority": "HIGH",
+      "assignee_id": "usr_demo_1",
+      "due_date": "2026-09-11T15:42:26.845Z",
+      "created_at": "2026-09-07T15:42:26.845Z",
+      "updated_at": "2026-09-11T15:42:26.845Z"
+    },
+    {
+      "id": "tsk_2",
+      "project_id": "prj_demo_1",
+      "title": "Implement Next.js App Router and REST routes",
+      "description": "Create standard JSON response handlers with Zod validation.",
+      "status": "DONE",
+      "priority": "HIGH",
+      "assignee_id": "usr_demo_2",
+      "due_date": "2026-09-12T15:42:26.845Z",
+      "created_at": "2026-09-08T15:42:26.845Z",
+      "updated_at": "2026-09-12T15:42:26.845Z"
+    },
+    {
+      "id": "tsk_3",
+      "project_id": "prj_demo_1",
+      "title": "Design interactive Task Board & progress tracking",
+      "description": "Build Kanban columns with status switching and instant recalculation.",
+      "status": "DONE",
+      "priority": "MEDIUM",
+      "assignee_id": "usr_demo_1",
+      "due_date": "2026-09-16T15:42:26.845Z",
+      "created_at": "2026-09-09T15:42:26.845Z",
+      "updated_at": "2026-09-13T16:03:51.832Z"
+    },
+    {
+      "id": "tsk_4",
+      "project_id": "prj_demo_1",
+      "title": "Setup team collaboration and email invite flow",
+      "description": "Support adding valid registered members and safe task unassignment.",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "assignee_id": "usr_demo_3",
+      "due_date": "2026-09-18T15:42:26.845Z",
+      "created_at": "2026-09-10T15:42:26.845Z",
+      "updated_at": "2026-09-13T15:42:26.845Z"
+    },
+    {
+      "id": "tsk_5",
+      "project_id": "prj_demo_1",
+      "title": "Run end-to-end automated tests",
+      "description": "Verify all CRUD mutations, security guards, and error states.",
+      "status": "IN_PROGRESS",
+      "priority": "LOW",
+      "assignee_id": null,
+      "due_date": "2026-09-20T15:42:26.845Z",
+      "created_at": "2026-09-11T15:42:26.845Z",
+      "updated_at": "2026-09-13T15:43:56.677Z"
+    },
+    {
+      "id": "tsk_6",
+      "project_id": "prj_demo_2",
+      "title": "Audit responsive viewport breakpoints",
+      "description": "Ensure mobile drawer, task card stacking, and modal viewports work cleanly.",
+      "status": "IN_PROGRESS",
+      "priority": "HIGH",
+      "assignee_id": "usr_demo_1",
+      "due_date": "2026-09-15T15:42:26.845Z",
+      "created_at": "2026-09-10T15:42:26.845Z",
+      "updated_at": "2026-09-13T15:42:26.845Z"
+    },
+    {
+      "id": "tsk_cc2fcza_mtzzmqbo",
+      "project_id": "prj_demo_1",
+      "title": "Implement Security Hardening & Rate Limiting",
+      "description": "Configure API rate limiting, CSP headers, and CORS policies for web application security.",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "assignee_id": "usr_demo_1",
+      "due_date": "2026-09-25T00:00:00.000Z",
+      "created_at": "2026-09-13T15:47:41.124Z",
+      "updated_at": "2026-09-13T15:47:41.124Z"
+    }
+  ]
+}
